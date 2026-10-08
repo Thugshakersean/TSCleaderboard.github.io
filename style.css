@@ -1,0 +1,18 @@
+:root { color-scheme: dark; }
+body {
+  font-family: system-ui, sans-serif;
+  background: #0f172a; color: #e2e8f0;
+  display: flex; justify-content: center; padding: 2rem;
+}
+main { width: 100%; max-width: 600px; }
+h1 { text-align: center; }
+#search {
+  width: 100%; padding: .7rem; margin: 1rem 0;
+  border-radius: 8px; border: 1px solid #334155;
+  background: #1e293b; color: #e2e8f0;
+}
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: .6rem; text-align: left; border-bottom: 1px solid #334155; }
+th { cursor: pointer; user-select: none; color: #38bdf8; }
+th:hover { text-decoration: underline; }
+tr.top1 td { background: #422006; }
